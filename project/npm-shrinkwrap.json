@@ -1,0 +1,44 @@
+{
+  "name": "test-lock",
+  "version": "1.0.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "yjz-child": {
+      "version": "1.0.3",
+      "resolved": "https://registry.npmjs.org/yjz-child/-/yjz-child-1.0.3.tgz",
+      "integrity": "sha512-6RrVT6pOSgdKLvWJFOC2UJ/ql1nWs6M7g1ZPuYaXTcSusUqKobtsDUgvtWOwtaeGCgKXxzzpL7lnMQ5pXif/sQ==",
+      "requires": {
+        "yjz-p5": "^1.0.0"
+      }
+    },
+    "yjz-child-2": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/yjz-child-2/-/yjz-child-2-1.0.0.tgz",
+      "integrity": "sha512-3ryOV0Z7ui4xhnHCB03SGiO2bWqDkuIT5Pl2WN/74aNV5WywhF2bpy9vXSOcQk2vVPxAlq74AkBNF/snU2nMCQ==",
+      "dev": true
+    },
+    "yjz-p5": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/yjz-p5/-/yjz-p5-1.0.0.tgz",
+      "integrity": "sha512-erxqKwWwuFJCSJFF6ilz36WCz5hzplyn/5p9yabspe2DZnWqEfnCEqcUk7kpGdYEfn/6mRBg0gQXAf4eYul5bQ=="
+    },
+    "yjz-parent": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/yjz-parent/-/yjz-parent-1.0.0.tgz",
+      "integrity": "sha512-2fIsb4ymnjZ+JG3crHrfSyEebWiRYjfcWuu3b3XyrMOu/8KY3+xJ6NeQfiyyz5VTUXmQW1Fg69slgSUJQStisw==",
+      "requires": {
+        "yjz-child": "^1.0.0"
+      }
+    },
+    "yjz-parent-dev": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/yjz-parent-dev/-/yjz-parent-dev-1.0.1.tgz",
+      "integrity": "sha512-p/wFsJ7/CKo8nHQXgsxrp65AO4w9kjqDxq0pMq3DgdaO7HfvPfGSwjxABnvx7j0sf89T39NktyNnbuaRbPdYeA==",
+      "dev": true,
+      "requires": {
+        "yjz-child-2": "^1.0.0"
+      }
+    }
+  }
+}

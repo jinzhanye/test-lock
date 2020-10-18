@@ -1,0 +1,17 @@
+{
+  "name": "test-lock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yjz-parent": "1.0.0"
+  },
+  "devDependencies": {
+    "yjz-parent-dev": "1.0.1"
+  }
+}
